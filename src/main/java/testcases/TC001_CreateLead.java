@@ -13,7 +13,7 @@ public class TC001_CreateLead extends ProjectMethods{
 	public void setData() {
 		testCaseName="TC001_CreateLead";
 		testDescription="Create a new Lead on LeafTaps";
-		browserName="chrome";
+		browserName="firefox";
 		dataSheetName="TC001";
 		category="Smoke";
 		authors="Gopi";
