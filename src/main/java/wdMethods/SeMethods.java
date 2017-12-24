@@ -75,7 +75,7 @@ public class SeMethods extends Reporter implements WdMethods{
 				}
 			}
 			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			driver.get(sUrl);
 			reportStep("The browser: "+browser+" launched successfully", "PASS");
 		} catch (WebDriverException e) {			
