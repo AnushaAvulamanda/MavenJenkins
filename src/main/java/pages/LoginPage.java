@@ -24,7 +24,7 @@ public class LoginPage extends ProjectMethods  {
 		}
 	}
 	
-	@FindBy(how=How.ID,using="username")
+	@FindBy(how=How.ID,using="username1")
 	private WebElement eleUserName;
 	
 	// Enter user name in Login Page
