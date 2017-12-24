@@ -14,7 +14,7 @@ public class TC005_DuplicateLead extends ProjectMethods{
 	public void setData() {
 		testCaseName="TC005_DuplicateLead";
 		testDescription="Duplicate a Lead - LeafTaps";
-		browserName="chrome";
+		browserName="firefox";
 		dataSheetName="TC005";
 		category="Regression";
 		authors="Babu";
